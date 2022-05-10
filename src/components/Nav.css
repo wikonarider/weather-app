@@ -1,0 +1,16 @@
+.nav-header {
+    display:flex;
+    margin-left: 2em;
+    margin-top: 2em;
+    }
+    
+    .title {
+    color: #e87040;
+    font-size: 2.5em;
+    text-decoration:none;
+    }
+    
+    .title:hover {
+      text-decoration: none;
+      color:#138585;
+    }

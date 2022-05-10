@@ -1,0 +1,21 @@
+.searchBarBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inputBox {
+    width: 100%;
+    color:peru;
+    padding: 0.5em;
+    margin-left: 1em;
+    border-radius: 3em;
+}
+
+.submit {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.5em;
+    border-radius: 3em;
+}
