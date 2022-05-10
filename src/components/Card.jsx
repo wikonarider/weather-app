@@ -4,9 +4,6 @@ import './Card.css';
 export default function Card ({min, max, name, img, onClose, id}) {
     return (
       <div className="card">
-        <div>
-            <button  id="closeIcon" onClick={onClose}>x</button>
-        </div>
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <div className="row">
@@ -22,6 +19,9 @@ export default function Card ({min, max, name, img, onClose, id}) {
               <img src={"http://openweathermap.org/img/wn/"+img+"@2x.png"} width="100" height="100" alt="" />
             </div>
           </div>
+        <div>
+            <button  id="closeIcon" onClick={onClose}>close</button>
+        </div>
         </div>
       </div>
     );
